@@ -1,6 +1,6 @@
 package client
 
-import "github.com/rajveermalviya/go-wayland/wayland/client"
+import "github.com/yaslama/go-wayland/wayland/client"
 
 func (c *Client) context() *client.Context {
 	return c.display.Context()

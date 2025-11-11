@@ -20,7 +20,7 @@
 
 package river
 
-import "github.com/rajveermalviya/go-wayland/wayland/client"
+import "github.com/yaslama/go-wayland/wayland/client"
 
 // StatusManager : manage river status objects
 //

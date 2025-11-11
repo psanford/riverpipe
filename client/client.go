@@ -3,10 +3,10 @@ package client
 import (
 	"errors"
 	"fmt"
+
 	"github.com/raitonoberu/riverpipe/client/event"
 	"github.com/raitonoberu/riverpipe/client/river"
-
-	"github.com/rajveermalviya/go-wayland/wayland/client"
+	"github.com/yaslama/go-wayland/wayland/client"
 )
 
 func New() (*Client, error) {
